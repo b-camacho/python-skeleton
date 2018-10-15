@@ -2,6 +2,16 @@
 
 import numpy as np
 
+# modify this function, and create other functions below as you wish
+
+print("test")
+
+def question01(portfolios):
+    print(portfolios)
+    # modify and then return the variable below
+    answer = brute(portfolios)
+    return answer
+
 
 def brute(portfolios):
     cur_max = 0
@@ -11,11 +21,4 @@ def brute(portfolios):
 
     return cur_max
 
-
-# modify this function, and create other functions below as you wish
-
-def question01(portfolios):
-    # modify and then return the variable below
-    answer = brute(portfolios)
-    return answer
 
